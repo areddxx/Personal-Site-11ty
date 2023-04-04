@@ -1,17 +1,6 @@
-Twelvety is a pre-configured Eleventy starter project built to be fast. It includes:
-
-- Component architecture
-- CSS pipeline using Sass, PostCSS and CleanCSS
-- JS pipeline using Browserify, Babel and Uglify
-- Page-specific CSS and JS
-- Inline critical CSS and defer non-critical CSS
-- Minified HTML, CSS and JS
-- Responsive picture shortcode **with AVIF and WebP support**
-- Content-hash of assets
-
-See the [GitHub repository](https://github.com/gregives/twelvety) for documentation.
-
-Made and used by [Greg Ives](https://gregives.co.uk)
-
-<!-- Markdown images will automatically use the responsive picture shortcode -->
-![Time-lapse of a blue and white train moving fast through a station](train.jpg)
+<span class="emoji hello">👋</span>
+# Austin Redd
+## Web Developer & Designer
+Currently not taking on any new projects.
+Feel free to [contact me via email](mailto:austin+website@austinredd.com) if you’d like to chat!
+<span class="emoji rocket">🚀</span>

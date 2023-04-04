@@ -3,34 +3,67 @@
 @import "mixins";
 
 html {
+  background: #282c3f;
   font-family: system-ui;
   line-height: 1.5;
 }
 
-img {
-  display: block;
-  width: 100%;
+* {
+  color: #a6accd;
 }
 
-picture {
-  display: block;
-  position: relative;
+h1 {
+  font: 600 2.5rem/1.15 system-ui,helvetica,arial,sans-serif;
+  margin: 0;
+}
 
-  > img {
-    height: 100%;
-    position: absolute;
+h2 {
+  margin: 0;
+}
+
+.home__content {
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home__content p a {
+  color: #66c5e6;
+  text-decoration: underline;
+  opacity: .75;
+  transition: opacity .25s ease-in-out;
+
+  &:hover {
+    opacity: 1;
   }
 }
 
-ul {
-  padding-left: 2rem;
+.header__link {
+  text-decoration: none;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color: #66c5e6;
+    opacity: 0.75;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+p .emoji {
+  margin-bottom: 0;
+}
 
-  &:not([class]) {
-    text-decoration: underline;
+.emoji {
+  display: block;
+  &.hello {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  &.rocket {
+    margin-top: 2rem;
+
   }
 }
